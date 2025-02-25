@@ -1,0 +1,20 @@
+{
+    "name": "code_challenge",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "problem1": "ts-node ./src/problem1/sum.ts",
+        "start": "tsc && node dist/app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/express": "^4.17.2",
+        "tslint": "^5.20.1",
+        "typescript": "^3.9.10"
+    },
+    "dependencies": {
+        "ts-node": "^10.9.2"
+    }
+}
